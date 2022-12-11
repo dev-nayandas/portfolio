@@ -8,6 +8,7 @@ const Skills = () => {
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 3.5 }}
       className="bg-[#5C4C8A] p-10"
+      id="skills"
     >
       <div className="">
         <h1 className="text-6xl text-[#FA7D13] font-bold ">My Skills</h1>

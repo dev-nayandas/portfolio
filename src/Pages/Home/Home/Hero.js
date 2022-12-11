@@ -1,9 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
 const Hero = () => {
-  <style></style>;
+
   return (
     // <motion.div animate={{ y: 50 }} transition={{ ease: "easeOut", duration: 2 }} >
     <motion.div

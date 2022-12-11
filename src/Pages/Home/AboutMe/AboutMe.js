@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutMe = () => {
     return (
-        <div className=' bg-[#4D3676] min-h-[500px]  mx-auto'>
+        <div id='about' className=' bg-[#4D3676] min-h-[500px]  mx-auto'>
             <h1 className="text-5xl font-bold text-[#FA7D13] p-6">About Me</h1>
             <p className="py-6 text-white w3/4 ">
               Hi there, this is Nayan Das a passionate MERN Developer. Building

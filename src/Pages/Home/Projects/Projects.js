@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
-    <div className="bg-[#7858A6] p-10">
+    <div id="projects" className="bg-[#7858A6] p-10">
       <div>
         <h1 className="text-6xl font-bold text-[#FA7D13] ">My Creations</h1>
       </div>
-      <div className="mt-10 grid-cols-1 grid lg:grid-cols-3 md:grid-cols-2  ">
-        <div className="card card-compact w-96 bg-base-100 shadow-xl ">
+      <div className="mt-10 grid-cols-1 grid lg:grid-cols-3 md:grid-cols-2 flex items-center ">
+        <div className="card card-compact w-96 bg-base-100 shadow-xl  ">
           <figure>
             <img
               className="h-[400px] w-full"
@@ -24,9 +24,11 @@ const Projects = () => {
               Admin can verify a laptop
             </p>
             <div className="card-actions justify-center">
-              <a href="https://final-project-e1cf1.web.app/" target="_blank">
-                <button className="btn bg-gradient-to-r from-indigo-500">Live Preview</button>
-              </a>
+              <Link to='/laptopDetails' >
+                <button className="btn bg-gradient-to-r from-indigo-500">
+                Details
+                </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -45,9 +47,11 @@ const Projects = () => {
               service to show the users. And User can give a review on a service
             </p>
             <div className="card-actions justify-center">
-              <a href="https://doctor-smith.web.app/" target="_blank">
-                <button className="btn bg-gradient-to-r from-indigo-500">Live Preview</button>
-              </a>
+              <Link to='/smithDetails' >
+                <button className="btn bg-gradient-to-r from-indigo-500">
+                Details
+                </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -66,13 +70,11 @@ const Projects = () => {
               provided by the institute. Also can down the course details
             </p>
             <div className="card-actions justify-center">
-              <a
-                href="https://fir-assignment-10-c92bf.web.app/"
-                target="_blank"
-              >
-          
-                <button className="btn bg-gradient-to-r from-indigo-500">Live Preview</button>
-              </a>
+              <Link to='/deltaDetails'>
+                <button className="btn bg-gradient-to-r from-indigo-500">
+                  Details
+                </button>
+              </Link>
             </div>
           </div>
         </div>
