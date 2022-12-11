@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div className="mt-20">
       <div>
-        <h1 className="text-4xl ">Contact Me</h1>
+        <h1 className="text-6xl text-[#FA7D13] font-bold ">Contact Me</h1>
       </div>
       <div className="hero  ">
         <div className="hero-content flex-col lg:flex-row-reverse">
@@ -50,7 +50,7 @@ const Contact = () => {
               </div>
 
               <div className="form-control mt-6">
-                <button type="submit" className="btn btn-primary">
+                <button type="submit" className="btn bg-gradient-to-r from-indigo-500">
                   Submit
                 </button>
               </div>

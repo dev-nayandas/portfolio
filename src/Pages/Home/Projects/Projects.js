@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
-    <div className="mt-20 ">
+    <div className="bg-[#7858A6] p-10">
       <div>
-        <h1 className="text-4xl">My Creations</h1>
+        <h1 className="text-6xl font-bold text-[#FA7D13] ">My Creations</h1>
       </div>
       <div className="mt-10 grid-cols-1 grid lg:grid-cols-3 md:grid-cols-2  ">
         <div className="card card-compact w-96 bg-base-100 shadow-xl ">
@@ -25,7 +25,7 @@ const Projects = () => {
             </p>
             <div className="card-actions justify-center">
               <a href="https://final-project-e1cf1.web.app/" target="_blank">
-                <button className="btn btn-primary">Live Preview</button>
+                <button className="btn bg-gradient-to-r from-indigo-500">Live Preview</button>
               </a>
             </div>
           </div>
@@ -46,7 +46,7 @@ const Projects = () => {
             </p>
             <div className="card-actions justify-center">
               <a href="https://doctor-smith.web.app/" target="_blank">
-                <button className="btn btn-primary">Live Preview</button>
+                <button className="btn bg-gradient-to-r from-indigo-500">Live Preview</button>
               </a>
             </div>
           </div>
@@ -71,7 +71,7 @@ const Projects = () => {
                 target="_blank"
               >
           
-                <button className="btn btn-primary">Live Preview</button>
+                <button className="btn bg-gradient-to-r from-indigo-500">Live Preview</button>
               </a>
             </div>
           </div>

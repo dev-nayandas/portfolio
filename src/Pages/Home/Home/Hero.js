@@ -10,31 +10,30 @@ const Hero = () => {
       initial={{ opacity: 0, scale: 0.5 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 1.5 }}
+      
+      style={{
+        
+        backgroundImage: `url("https://png.pngtree.com/thumb_back/fw800/back_our/20190620/ourmid/pngtree-electronic-technology-website-texture-background-banner-image_156039.jpg")`,
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+      }}
+      opacity={{ opacity: 1.0 }}
     >
-      <div style={{}} className="hero  text-white">
+      <div style={{}} className="hero bg-[#381C59] text-white ">
         <div className="hero-content flex-col lg:flex-row-reverse">
-          <img src="https://i.ibb.co/m67rFC2/pro.png" />
-          <div className="w-1/2">
-            <h1 className="text-5xl font-bold">About Me</h1>
-            <p className="py-6">
-              Hi there, this is Nayan Das a passionate MERN Developer. Building
-              front-end structure and functionality with React JS,
-              React-Router-Dom, react-query, firebase authenticity, etc, and
-              giving it proper design with Tailwind, DaisyUI, or BOOTSTRAP give
-              me pleasure and delights. Even making API and other Backend node
-              js technology with coordination of Express JS, and MongoDB really
-              commit a serious curiosity within me to make a web backend more
-              efficient. I love to code and learn new technology so it enhances
-              my knowledge and fills out my skill for working and adds some
-              extra value to this Development sector.
-            </p>
+          <img
+            style={{ marginBottom: "-17px" }}
+            src="https://i.ibb.co/m67rFC2/pro.png"
+          />
+          <div className="w-1/2 ">
+            <h1 className="text-6xl text-[#F5EBE0] mb-20">Hi, I'm <span className="text-[#FF7F11]">Nayan Das</span> MERN Stack <span className="text-[#EC34FE]">Developer</span></h1>
 
             <a
               className=" "
               target="_blank"
               href="https://drive.google.com/file/d/1-UEhaDmgaczUGGlmGNUu5Wmv635j8Ycz/view?usp=share_link"
             >
-              <button className="btn ">Download Resume</button>
+              <button className="btn bg-gradient-to-r from-indigo-500">Download Resume</button>
             </a>
           </div>
         </div>

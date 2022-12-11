@@ -7,10 +7,10 @@ const Skills = () => {
       initial={{ opacity: 0, scale: 0.5 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 3.5 }}
-      className=" mt-20 "
+      className="bg-[#5C4C8A] p-10"
     >
-      <div>
-        <h1 className="text-4xl mt-10">My Skills</h1>
+      <div className="">
+        <h1 className="text-6xl text-[#FA7D13] font-bold ">My Skills</h1>
       </div>
       <div className="mt-20 tex-white ">
         <button className="btn btn-outline btn-info mr-5">Html5</button>
